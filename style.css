@@ -1,0 +1,98 @@
+:root{
+
+    --gradient : #d0dae4;
+    --cold : #b2c2d3;
+    --blue : #8da0c4;
+    --navy : #696f99;
+}
+
+body{
+    background-color: var(--cold);
+    max-width: 1440px;
+    width: 100%;
+    margin: 0;
+}
+.main_Container {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    width: 70%; 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px; 
+}
+.Left_img {
+    width: 48%;
+    height: 250px;
+}
+.Left_img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.Right_Content {
+    width: 48%;
+    height: 250px;
+}
+.Rignt_Para {
+    padding: 10px 20px;
+    background-color: white;
+    height: 185px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.Three_Btn {
+    width: 100%;
+}
+
+p#para {
+  
+    text-align: start;
+    line-height: 25px;
+}
+button {
+    width: 33.33%;
+    border: none;
+    padding: 15px 0px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    /* color:#20b2aa57; */
+}
+.Three_Btn #btn_1 {
+    border-radius: 10px 0px 0px 0px;
+}
+.Three_Btn #btn_3 {
+    border-radius: 0px 10px 0px 0px;
+}
+h2 {
+    font-size: 20px;
+    /* text-align: center; */
+}
+p#para_title {
+    font-size: 16px;
+    color:var(--navy);
+    font-weight: 600;
+    text-align: center;
+}
+
+/*.......................Class_List ................*/
+
+.btn:focus{
+    background-color: white;
+}
+.btn:hover{
+    background-color:rgba(255, 160, 122, 0.476);
+    color: lightblue;
+}
+.white_back{
+    background-color: white;
+}
+.hover_none {
+    pointer-events:none;
+}
